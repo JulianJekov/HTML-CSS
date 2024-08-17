@@ -1,0 +1,17 @@
+.section-features img{
+    width: 17%;
+    margin: 0 auto;
+}
+
+.section-features h4 {
+    color: #d0191d;
+}
+
+.section-features {
+    background-color: #fff;
+    padding-bottom: 2em;
+}
+
+.section-features .section-content {
+    padding: 0 4em;
+}

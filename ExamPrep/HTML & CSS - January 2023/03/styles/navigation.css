@@ -1,0 +1,23 @@
+.main-nav ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+}
+
+.main-nav li a {
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.main-nav li a:hover {
+    text-decoration: underline;
+}
+
+.main-nav li,
+.main-nav li a {
+     display: block;
+}
+
+.section-site-header .container {
+    max-width: initial;
+}

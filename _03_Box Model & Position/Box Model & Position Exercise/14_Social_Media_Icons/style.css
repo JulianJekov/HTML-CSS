@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: inherit; */
+}
+
+html {
+    /* box-sizing: border-box; */
+}
+
+div {
+    
+    width: max-content;
+    /* border: 2px solid red; */
+    margin-top: 2em;
+}
+
+li {
+    /* list-style: none; */
+    display: inline-block;
+    margin-left: 0.8em;
+}
+
+a {
+    border-radius: 50%;
+    background-color: #eeeeee;
+    padding: 0.8em;
+    color: black;
+}
+
+a.fb:hover{
+    color: #3F51B5;
+}
+a.twitter:hover{
+    color: #1da1f2;
+}
+a.google:hover{
+    color: #F4511E;
+}
+a.linkedin:hover{
+    color: #0288D1;
+}
+a.instagram:hover{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}

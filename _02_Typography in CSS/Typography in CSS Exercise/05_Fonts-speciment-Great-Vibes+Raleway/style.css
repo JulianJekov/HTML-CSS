@@ -1,0 +1,33 @@
+body {
+    font-family: Raleway, sans-serif 16px;
+    line-height: 1.5;
+    padding: 0 50px;
+
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul ul {
+    list-style-type: disc;
+}
+
+ul ul ul {
+    list-style-type: circle;
+}
+
+
+
+h1,
+h2 {
+    font-family: Great Vibes, cursive;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 1.5em;
+}
+
+
+article p:last-child {
+    margin-bottom: 3em;
+}

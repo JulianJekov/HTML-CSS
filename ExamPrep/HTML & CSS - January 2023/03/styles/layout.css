@@ -1,0 +1,12 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-image: url(/03/image/fitness-main.jpg);
+    background-size:auto;
+    background-position: center -20em;
+}

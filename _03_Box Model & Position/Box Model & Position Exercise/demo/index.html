@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            overflow: auto; /* Enable vertical scrolling when necessary */
+        }
+
+        .section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            background: linear-gradient(to right, #ff5733, #33ff57);
+            overflow: hidden; /* Hide overflowing content */
+        }
+        .section2 {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            background: linear-gradient(to right, #5233ff, #33ff57);
+            overflow: hidden; /* Hide overflowing content */
+        }
+
+        .image-container {
+            max-width: 50%; /* Adjust the size as needed (half of the viewport width) */
+            max-height: 50%; /* Adjust the size as needed (half of the viewport height) */
+            position: relative;
+            border: 2px solid red;
+            margin: 2em auto;
+        }
+
+        .icon {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 20px;
+            height: 20px;
+            background-color: #fff;
+            border-radius: 50%;
+        }
+
+        img {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="image-container">
+            <img src="picture1 copy.jpg" alt="Image 1">
+            <div class="icon"></div>
+        </div>
+    </div>
+    <div class="section2">
+        <div class="image-container">
+            <img src="picture2 copy.jpg" alt="Image 2">
+            <div class="icon"></div>
+        </div>
+    </div>
+</body>
+</html>

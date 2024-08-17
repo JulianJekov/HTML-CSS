@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    border: 3px solid #000;
+}
+
+.container {
+    height: 50vh;
+    position: relative;
+}
+
+.container:nth-child(1) {
+    background-image: linear-gradient(to right, #195d9d, #007bb2, #0098b8, #00b2b1, #42caa2);
+}
+
+.container:nth-child(2) {
+    background-image: linear-gradient(to right, #a93476, #c43963, #d44b4c, #d96533, #d28116);
+}
+
+.card {
+    width: 13em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.3em;
+    overflow: hidden;
+    /* box-shadow: 20px 20px 20px 10px rgba(0, 0, 0, 0.5); */
+
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card .inner-shadow {
+    display: block;
+    /* width: 20px;
+    height: 20px; */
+    /* background-color: rgb(0, 0, 0, 0.2); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.5) inset;
+    /* opacity: 1;
+    transition: opacity 0.3s ease-in; */
+}
+
+.fa-solid.fa-star {
+   color: #fff;
+   position: absolute;
+   display: block;
+   bottom: 0.4em;
+   right: 0.4em;
+}
+
+.fa-solid.fa-link {
+    color: #fff;
+    position: absolute;
+    display: block;
+    bottom: 0.4em;
+    right: 0.4em;
+}
+
+/* .card:hover .inner-shadow{
+    opacity: 0;
+} */

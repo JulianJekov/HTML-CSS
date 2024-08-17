@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+   
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body {
+    padding: 5em;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    line-height: 1.2;
+    font-weight: normal;
+    padding-bottom: 1em;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: 4em auto;
+    gap: 2em;
+}

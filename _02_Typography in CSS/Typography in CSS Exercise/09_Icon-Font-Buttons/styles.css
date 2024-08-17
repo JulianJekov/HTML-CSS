@@ -1,0 +1,30 @@
+@import url(https://use.fontawesome.com/releases/v6.4.2/css/all.css);
+
+body {
+    font-family: Arial, serif;
+    font-size: 18px;
+    line-height: 3;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 12px 27px;
+}
+
+a:hover {
+    color: #eee;
+}
+
+a i + span {
+    padding-left: 0.5em;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}

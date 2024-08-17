@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 16px/1.5 Helvetica, sans-serif;
+    margin: 24px 44px 24px 44px;
+}
+
+article h2{
+    padding-top: 16px;
+    padding-bottom: 0px;
+}
+
+p {
+    margin: 20px 0 20px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    padding-bottom: 20px;
+}
+
+
+ul {
+    list-style-type: square;
+}
+
+ul ul {
+    list-style-type: disc;
+}
+
+ul ul ul {
+    list-style-type: circle;
+}
+
+ul, ol {
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+li {
+    padding-left: 5px;
+}
+
+
+blockquote {
+    border-left: 3px solid rgb(221, 221, 221);
+    font-style: italic;
+    padding-left: 20px;
+}
+
+blockquote p:first-child {
+    padding-top: 16px;
+}
+
+table, th, td, tr {
+    border: 2px solid #CCC;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(242, 241, 241, 0.641);
+}
+
+th, td {
+    padding-left: 5px;
+}
+
+th {
+    background-color: lightgray;
+    text-align: left;
+    font-weight: bold;
+}
+
+#koko {
+    text-align: right;
+    padding-bottom: 2em;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border: 2px solid #CCC;
+    padding: 2em;
+}
+
+img[class^="align"] {
+    margin-bottom: 0.5em;
+}
+
+img.align-left {
+    float: left;
+    margin-right: 0.5em;
+}
+
+
+img.align-right {
+    float: right;
+    margin-left: 1em;
+}
